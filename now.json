@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "public": true,
+  "alias": [
+    "MakeWikipediaGreatAgain"
+  ],
+  "github": {
+    "autoAlias": true,
+    "silent": true
+  },
+  "regions": [
+    "cle1"
+  ],
+  "routes": [
+    {
+      "src": "/wiki\\.css",
+      "dest": "wiki.css"
+    },
+    {
+      "src": "/.*",
+      "dest": "index.js"
+    }
+  ],
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@now/node"
+    },
+    {
+      "src": "wiki.css",
+      "use": "@now/static"
+    }
+  ]
+}
