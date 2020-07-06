@@ -173,11 +173,13 @@
 #www-wikipedia-org {
 	background: #F5F5F5;
 }
-.central-textlogo img {
+.central-textlogo__image {
 	width: 280px;
-	height: auto;
+	height: 50px;
 	margin-top: 15vh;
-	margin-bottom: 100px;
+	margin-bottom: 90px;
+	background-size: 280px auto;
+	background-position: 0 -405px;
 	filter: drop-shadow(0 1px 2px rgba(50,50,50,0.25)) opacity(70%);
 }
 .central-textlogo strong, #www-wikipedia-org > hr, .central-featured-lang small, .central-featured-logo, .lang-list-button-wrapper, .lang-list-border, .lang-list-container {
@@ -391,6 +393,12 @@
 #ca-nstab-project:after {
 	content: 'Project Page';
 }
+#ca-nstab-template:after {
+	content: 'Template Page';
+}
+#ca-nstab-draft:after {
+	content: 'Draft Page';
+}
 #ca-talk:after {
 	content: 'Discuss';
 }
@@ -488,6 +496,9 @@
 }
 #ca-unwatch a:after {
 	background-image: url('https://drive.google.com/uc?id=0B2K6AHAKA5EXRFlNMjJONGFJTGs');
+}
+#ca-unwatch.icon a, #ca-watch.icon a {
+	overflow: visible !important;
 }
 div#simpleSearch {
 	position: absolute;
@@ -649,7 +660,7 @@ div#mw-panel div.portal h3 {
 	background: rgba(0,0,0,0.05);
 }
 #mp-lower, #mp-middle {
-	overflow: visible;
+	overflow: visible !important;
 }
 #mp-lower:before, #mp-middle:before {
 	content: '';
@@ -1178,5 +1189,3 @@ div#footer ul li {
 	display: none;
 }
 }
-
-/*[[theme]]*/
