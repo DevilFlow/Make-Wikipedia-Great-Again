@@ -10,7 +10,8 @@ Yes it is! We wont spy through your requests! You can look in the code!
 ## Using MWGA
 
 ### Option 1: Selfhosting (not recommended)
-- CLick on this Link and press on "Continue"
+#### You need basic Computer knowledge for this!
+- Click on this Link and press on "Continue"
 - https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2FDevilFlow%2FMake-Wikipedia-Great-Again
 - Press on continue.
 - Select the Project name and make sure "FRAMEWORK PRESET" is set to "Other".
