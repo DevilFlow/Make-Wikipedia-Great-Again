@@ -1,4 +1,3 @@
-@-moz-document domain("wikipedia.org") {
 /* cyrillic-ext */
 @font-face {
   font-family: 'Roboto';
@@ -1187,5 +1186,4 @@ div#footer ul li {
 /*Beta features*/
 .mwe-popups:before, .mwe-popups:after {
 	display: none;
-}
 }
