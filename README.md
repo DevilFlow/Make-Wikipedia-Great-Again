@@ -27,3 +27,4 @@ Yes it is! We wont spy through your requests! You can look in the code!
 
 ## Credits
 The CSS is from https://github.com/udscbt-wsx/udscbt-userstyles/blob/master/Wikipedia/Wikipedia%20Dark%20-%20udscbt
+But i fixed it, it was broken and didnt completely work
