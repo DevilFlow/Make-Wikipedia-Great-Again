@@ -7,6 +7,9 @@ This is a proxy Software, for wikipedia. It applies custom Style Sheets, so wiki
 ## Is this secure?
 Yes it is! We wont spy through your requests! You can look in the code!
 
+## Known Bugs
+- Articles from the Homepage (except "From today's featured article") dont load or are broken.
+
 ## Using MWGA
 
 ### Option 1: Selfhosting (not recommended)
