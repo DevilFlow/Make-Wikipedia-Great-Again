@@ -14,6 +14,7 @@ Yes it is! We wont spy through your requests! You can look in the code!
 
 ### Option 1: Selfhosting (not recommended)
 #### You need basic Computer knowledge for this!
+#### Selfhosting using Vercel (ZEIT.CO)
 - Click on this Link and press on "Continue"
 - https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2FDevilFlow%2FMake-Wikipedia-Great-Again
 - Press on continue.
