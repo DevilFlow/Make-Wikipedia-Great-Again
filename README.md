@@ -24,3 +24,6 @@ Yes it is! We wont spy through your requests! You can look in the code!
 ### Option 2: Using our prebuilt Version of MWGA
 - Open our prebuilt Version in your Browser!
 - https://make-wikipedia-great-again.vercel.app/wiki
+
+## Credits
+The CSS is from https://github.com/udscbt-wsx/udscbt-userstyles/blob/master/Wikipedia/Wikipedia%20Dark%20-%20udscbt
